@@ -27,4 +27,4 @@ export const updateUser = (userId, updateData) => (dispatch, getState) => {
     .catch(err => {
       console.log(err)
     })
-}
+}     
